@@ -1,0 +1,33 @@
+.bannarArea{
+    color: white;
+    padding: 300px 0;
+}
+.bannarArea h2{
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.bannarArea h1{
+    font-size: 65px;
+    font-weight: 500;
+    margin-top: 40px;
+}
+.bannarArea span{
+    font-size: 65px;
+    font-weight: 900;
+    margin-top: 40px;
+}
+.bannarArea .btn{
+    font-size: 24px;
+    font-weight: 700;
+    color: #38220f;
+    border: none;
+    background: white;
+    border-radius: 35px;
+    padding: 20px 30px;
+    margin-top: 50px;
+}
+.bannarArea .btn:hover{
+    background: #38220f;
+    color: white;
+}

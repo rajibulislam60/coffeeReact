@@ -1,0 +1,12 @@
+.container{
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0;
+}
+.nbArea{
+  background-image: url('../public/images/coffeebg.jpg');
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}

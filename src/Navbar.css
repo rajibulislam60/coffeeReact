@@ -1,0 +1,43 @@
+.navbarArea{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo h2{
+    text-shadow: 4px 4px 2px rgba(255,255,255,0.6);
+    font-size: 34px;
+}
+.navbarArea ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.navbarArea ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+.navbarArea ul li a:hover{
+    color: #967259;
+}
+.searchArea .search{
+    height: 50px;
+    width: 250px;
+    padding: 0 20px;
+    border-radius: 25px;
+    font-size: 18px;
+    border: none;
+}
+.searchArea{
+    position: relative;
+}
+.searchArea .searchIcon{
+    position: absolute;
+    color: #967259;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    font-size: 24px;
+}
